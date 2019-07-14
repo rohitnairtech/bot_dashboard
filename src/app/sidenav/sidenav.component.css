@@ -1,0 +1,172 @@
+/* The side navigation menu */
+
+.col-lg-12{ padding-left: 0 !important; padding-right: 0 !important; }
+
+.sidenav .row, .sidenav .row.menubox{ margin-left: 0px !important; margin-right: 0px !important; }
+
+.sidenav {
+    height: 1200px; 
+    background-color:#23395d; 
+}
+
+.menubox:hover{
+  background-color:#23395d;
+ 
+}
+
+.leftmargin{
+  margin-left: 14px;
+  margin-top: 15px;
+
+}
+
+.hiddenmargin{
+ font-size: 15px;
+  color: #98AAB2;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.subnav{ margin:5px 0 5px 40px; }
+
+
+.hiddenmargin span{ cursor: pointer; }
+
+.leftmargin span{
+  
+  font-size: 16px;
+  color: #98AAB2;
+  letter-spacing: 1px;
+  
+  margin-left:15px;
+  margin-right:15px;
+}
+
+
+.right{
+  text-align: right;
+}
+
+.nopadding{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  margin-top: 0px !important;
+}
+
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #98AAB2;
+}
+
+
+
+
+.profile-dropdown .dropdown-menu{
+padding:0.5rem 1rem !important;
+
+}
+.profile-dropdown .dropdown-item{ padding: 0 !important}
+.email-addrs{ font-size: 14px !important; letter-spacing: 0 !important;}
+
+.c--anim-btn span {
+  color: #98AAB2;
+  text-decoration: none;
+  
+  display: block;
+
+}
+
+.c--anim-btn, .c-anim-btn {
+  transition: 0.3s;     
+}
+
+.c--anim-btn {
+  
+  overflow: hidden;
+  width: 100%;
+  margin: 0 0 1px 0;
+ 
+  
+}
+.c--anim-btn span {
+ 
+   padding: 25px 0 25px 20px; 
+   font-size: 18px;
+   color: #98AAB3;
+   text-transform: uppercase;
+  
+}
+
+.c-anim-btn{
+  margin-left: 0;  
+  padding: 22px 30px;
+  background-color: #23395d;
+ border-bottom: 1px solid #192841
+}
+
+.c--anim-btn:hover .c-anim-btn{
+  margin-left: 0;
+  color: #fff;
+  background-color: #23395d;
+}
+
+ 
+
+.c--anim-btn:hover .overview-img{ background-image:url(/assets/overview.svg); background-position: 30px 14px; background-repeat: no-repeat; padding: 25px 0 25px 40px;  cursor: pointer; background-size: 7%;}
+.c--anim-btn:hover .overview-img.ppl-img{ background-image:url(/assets/users.svg); background-position: 30px 15px; background-repeat: no-repeat;}
+.c--anim-btn:hover .overview-img.bcon-img{ background-image:url(/assets/beacon-img.svg); background-position: 30px 10px; background-repeat: no-repeat; background-size: 5%;}
+.c--anim-btn:hover .overview-img.places-img{ background-image:url(/assets/places.svg); background-position: 30px 12px; background-repeat: no-repeat; background-size: 6% !important;}
+.c--anim-btn:hover .overview-img.flrplans-img{ background-image:url(/assets/airlines_icon.png); background-position: 30px 14px; background-repeat: no-repeat; }
+.c--anim-btn:hover .overview-img.waypoint-img{ background-image:url(/assets/waypoints_icon.png); background-position: 30px 14px; background-repeat: no-repeat; }
+.c--anim-btn:hover .overview-img.drw-img{ background-image:url(/assets/drawing_tool.png); background-position: 30px 14px; background-repeat: no-repeat; }
+.c--anim-btn:hover .overview-img.campaigns-img{ background-image:url(/assets/campaigns.svg); background-position: 30px 14px; background-repeat: no-repeat; }
+.c--anim-btn:hover .overview-img.reports-img{ background-image:url(/assets/reports.svg); background-position: 30px 14px; background-repeat: no-repeat; }
+.c--anim-btn:hover .overview-img.manage-img{ background-image:url(/assets/manage.svg); background-position: 30px 14px; background-repeat: no-repeat; }
+
+
+
+.img-section { cursor: pointer; position: absolute; top: 0; left: 0; right: 0; }
+.img-section label { display: block; color: #2F80ED; font-size: 16px;font-family: 'Work Sans Bold'; margin-top: 5px; text-transform: capitalize;}
+.img-section button{ background: transparent; border: 0; width: 100%; height: 125px; z-index: -1; cursor: pointer; }
+.img-section button img { cursor: pointer; }
+.img-section img { width: 100%; height: auto;}
+.browse-img-btn { padding: 0 !important; }
+.edit-field{ padding: 0 8px; }
+
+.search { text-align: center; }
+.searchInpt { width: 80%; margin: 50px 0; padding: 7px 5px; background-color: #192841; border:0;}
+::-webkit-input-placeholder { /* Edge */
+  text-align: center;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  text-align: center;
+}
+
+::placeholder {
+  text-align: center;
+}
+
+
+footer{ position: fixed; bottom: 50px;}
+footer p{ font-size: 10px; color: #98AAB2; line-height: 20px; letter-spacing: 1px;text-align: center; margin-left:30px}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {}
+
+
+
+@media screen and (max-width: 768px) {
+.sidenav { display: none !important; }
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .center {height: 70px;}
+  .center img{ width: 50% }
+  .c--anim-btn span{ font-size: 15px !important }
+/*  perfect-scrollbar { max-width:auto; max-height: 350px; }*/
+
+  
+ }

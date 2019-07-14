@@ -1,0 +1,93 @@
+
+
+<div class="row" style="margin-left: -15px !important; margin-right: -15px !important; ">
+<div class="col-lg-12">
+  
+<div id="mySidenav" class="sidenav">
+
+
+<div class="row menubox">
+     
+        <div class="col-lg-12 search">
+         <input type="type" name="search" class="searchInpt" placeholder="Search" onfocus="this.placeholder=''" onblur="this.placeholder='Search'">
+         
+        </div>
+      </div>
+ 
+      <div class="row menubox">
+     
+        <div class="col-lg-12 c--anim-btn">
+          <span class="c-anim-btn overview-img">Live Chat View</span> 
+         
+        </div>
+      </div>
+
+     <div class="row menubox">
+     
+        <div class="col-lg-12 c--anim-btn">
+          <span class="c-anim-btn overview-img">Analytical View</span> 
+         
+        </div>
+      </div>
+
+   <div class="row menubox">
+     
+        <div class="col-lg-12 c--anim-btn">
+          <span class="c-anim-btn overview-img">Campaign</span> 
+         
+        </div>
+      </div>
+
+       <div class="row menubox">
+     
+        <div class="col-lg-12 c--anim-btn">
+          <span class="c-anim-btn overview-img">Sentiments</span> 
+         
+        </div>
+      </div>
+     
+      <div class="row menubox" (click)="contactusCollapse()">
+       
+        <div class="col-lg-12 c--anim-btn">
+          <span class="c-anim-btn overview-img bcon-img">Contact Us</span>
+         
+        </div>
+           
+      </div>
+      <div class="row menubox" *ngIf="contactusCollapseFlag" >
+          <div class="hiddenmargin subnav">
+            <span>FAQ</span>
+          </div>
+      </div>
+      <div class="row menubox" *ngIf="contactusCollapseFlag">
+          <div class="hiddenmargin subnav">
+            <span>Contact Us</span>
+          </div>
+      </div>
+
+      <div class="row menubox" *ngIf="contactusCollapseFlag">
+          <div class="hiddenmargin subnav">
+            <span>Sentiments</span>
+          </div>
+      </div>
+
+   
+
+
+      <footer class="footer-admin footer-general">
+           <p>@2019 botsoawn.com</p>
+<p>Privacy Policy . FAQ . Support</p>
+
+
+
+      </footer>
+     
+</div>
+
+  
+
+
+
+
+</div>
+</div>
